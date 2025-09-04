@@ -8,6 +8,10 @@ package polimorfismo;
  *
  * @author brito
  */
-public class ClaseSumaHija {
+public class ClaseSumaHija extends OperacionesClasePadre {
     
+    @Override
+    public void Operaciones() {
+        resultado = val1 + val2;
+    }
 }
